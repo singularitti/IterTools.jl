@@ -772,6 +772,8 @@ end
 
 length(it::FoldList) = length(it.list)
 
+size(it::FoldList) = size(it.list)
+
 # peekiter(iter): possibility to peek the head of an iterator
 
 struct PeekIter{I}
